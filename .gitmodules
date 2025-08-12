@@ -1,0 +1,3 @@
+[submodule "multi-sig/lib/forge-std"]
+	path = multi-sig/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
