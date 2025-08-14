@@ -8,7 +8,7 @@ import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
  * @notice A beginner-friendly multisig wallet for ERC20 tokens
  * @dev This contract requires multiple owners to approve token transfers
  */
-contract SimplecCopMultiSig {
+contract SimpleERC20Multisig {
     // --- State Variables ---
     address[] public owners; // List of wallet owners
     mapping(address => bool) public isOwner; // Quick owner lookup

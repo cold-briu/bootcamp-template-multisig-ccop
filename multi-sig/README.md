@@ -47,8 +47,10 @@ $ anvil
 
 ### Deploy
 
+Edit the `script/Deploy.s.sol` file to configure your multisig parameters (owners, threshold, token), then deploy:
+
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/Deploy.s.sol:Deploy --rpc-url <your_rpc_url> --account <your_account_name> --broadcast
 ```
 
 ### Cast
